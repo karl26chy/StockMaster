@@ -1,33 +1,26 @@
 {
-"productos":[
-{
-    "id": 1,
-  "nombre": "silla gamer",
-  "precio": 99.99,
-  "stock": 10,
-  "descripcion": "cule silla comoda"
-},
-
-{
-    "id": 2,
-  "nombre": "celular",
-  "precio": 80.000,
-  "stock": 5,
-  "descripcion": "cule vaina rapida"
-},
-
-{
-    "id": 3,
-  "nombre": "pc gamer",
-  "precio": 85.000,
-  "stock": 3,
-  "descripcion": "te sirve para jugar"
+  "productos": [
+    {
+      "nombre": "carro",
+      "precio": 1000,
+      "stock": 10,
+      "descripcion": "",
+      "id": "1GB-GGMdkpw"
+    },
+    {
+      "nombre": "dog",
+      "precio": 0.01,
+      "stock": 1,
+      "descripcion": "",
+      "id": "itq3whMZGT8"
+    },
+    {
+      "nombre": "dfds",
+      "precio": 5000,
+      "stock": 6,
+      "descripcion": "",
+      "id": "uY5SP3ffUYw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
-
-]
-}
-
-
-
-
-

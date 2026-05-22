@@ -34,7 +34,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
             </span>
-            <input type="text" placeholder="Buscar en el catálogo..." class="block w-80 pl-10 pr-4 py-2.5 border border-slate-200 rounded-xl focus:outline-none focus:ring-4 focus:ring-indigo-500/10 focus:border-indigo-500 transition-all text-sm bg-slate-50/50">
+            <input id="buscador" type="text" placeholder="Buscar en el catálogo..." class="block w-80 pl-10 pr-4 py-2.5 border border-slate-200 rounded-xl focus:outline-none focus:ring-4 focus:ring-indigo-500/10 focus:border-indigo-500 transition-all text-sm bg-slate-50/50">
           </div>
         </div>
       </header>
@@ -92,15 +92,15 @@
               <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 <div class="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm flex flex-col justify-center">
                   <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1">Total SKU</p>
-                  <p class="text-3xl font-black text-slate-900" id="stat-total">12</p>
+                  <p class="text-3xl font-black text-slate-900" id="stat-total">0</p>
                 </div>
                 <div class="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm flex flex-col justify-center border-l-4 border-l-indigo-500">
                   <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1">Valor Inventario</p>
-                  <p class="text-3xl font-black text-slate-900" id="stat-value">$1,240.00</p>
+                  <p class="text-3xl font-black text-slate-900" id="stat-value">0</p>
                 </div>
                 <div class="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm flex flex-col justify-center border-l-4 border-l-rose-500">
                   <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1">Stock Crítico</p>
-                  <p class="text-3xl font-black text-rose-500" id="stat-low">3</p>
+                  <p class="text-3xl font-black text-rose-500" id="stat-low">0</p>
                 </div>
               </div>
 
